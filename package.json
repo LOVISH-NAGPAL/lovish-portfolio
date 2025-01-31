@@ -1,0 +1,25 @@
+{
+  "name": "lovish-portfolio",
+  "version": "1.0.0",
+  "description": "\"# lovish-portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LOVISH-NAGPAL/lovish-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LOVISH-NAGPAL/lovish-portfolio/issues"
+  },
+  "homepage": "https://LOVISH-NAGPAL.github.io/lovish-portfolio",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
