@@ -229,11 +229,12 @@ svg {
 
 .hero__image {
   position: absolute;
-  top: 0;
+  top: 5rem;
   left: 50%;
   translate: -50%;
   width: 174px;
   height: auto;
+  visibility: hidden;
 }
 
 .hero__rings {
@@ -256,7 +257,7 @@ svg {
 .hero__text {
   position: relative;
   text-align: center;
-  margin-block-start: 335px;
+  margin-block-start: 55px;
 }
 
 .hero__headline {
@@ -282,7 +283,9 @@ h1 > span {
   margin-block-end: 24px;
 }
 
+
 @media (min-width: 37.5em) {
+ 
   .hero {
     position: relative;
     margin-block-start: -62px;
@@ -311,6 +314,7 @@ h1 > span {
     left: auto;
     right: 0;
     translate: 0;
+    visibility: visible;
   }
 
   .hero__rings {
@@ -523,10 +527,11 @@ h1 > span {
 }
 
 .projects__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: flex
+;
+  flex-direction: row;
   gap: 20px;
+  justify-content: center;
 }
 
 @media (min-width: 37.5em) {
